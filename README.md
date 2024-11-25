@@ -40,6 +40,21 @@ The Lambda function requires the following environment variables to be set:
 
 These variables are dynamically injected into the Lambda function via Terraform.
 
+### Explanation of the Files and Directories:
+
+- **main.tf**: This file contains the main Terraform configuration that ties all the resources together.
+- **variables.tf**: Defines the variables used throughout the Terraform configuration.
+- **outputs.tf**: Specifies the outputs from the Terraform execution, such as the OpenSearch domain endpoint.
+- **terraform.tfvars**: Stores the actual values for the variables defined in `variables.tf`.
+- **provider.tf**: Configures the AWS provider to enable Terraform to interact with AWS services.
+  
+### Modules:
+- **lambda/**: Contains the configuration for provisioning the AWS Lambda function.
+- **opensearch/**: Defines the OpenSearch domain and settings for log storage and indexing.
+- **iam/**: Configures the IAM roles and policies required for Lambda to interact with other AWS services.
+
+This structure ensures modularity, scalability, and reusability of the Terraform code.
+
 ## Deployment
 
 ### Prerequisites
