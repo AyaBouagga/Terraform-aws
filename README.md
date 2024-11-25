@@ -1,8 +1,8 @@
-<p align="center">
-  <img src="[images/diagram.png](https://github.com/AyaBouagga/Terraform-aws/blob/test/images.png)" width="800"/>
-</p>
 
-![Image description](https://github.com/AyaBouagga/Terraform-aws/blob/test/images.png)
+
+<p align="center">
+  ![Image description](https://github.com/AyaBouagga/Terraform-aws/blob/test/images.png)
+</p>
 
 # Lambda OpenSearch Integration Project
 
