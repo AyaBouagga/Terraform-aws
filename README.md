@@ -1,6 +1,9 @@
-<center>
+<p align="center">
+  <img src="[images/diagram.png](https://github.com/AyaBouagga/Terraform-aws/blob/test/images.png)" width="800"/>
+</p>
+
 ![Image description](https://github.com/AyaBouagga/Terraform-aws/blob/test/images.png)
-</center>
+
 # Lambda OpenSearch Integration Project
 
 This project provides a pipeline for processing logs or event data using AWS Lambda and OpenSearch (formerly Elasticsearch). The goal is to enable real-time data ingestion into OpenSearch for querying, analytics, and visualization.
