@@ -1,8 +1,6 @@
 
 
-<p align="center">
   ![Image description](https://github.com/AyaBouagga/Terraform-aws/blob/test/images.png)
-</p>
 
 # Lambda OpenSearch Integration Project
 
